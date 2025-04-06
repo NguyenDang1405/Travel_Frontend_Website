@@ -1,7 +1,2 @@
 lib/modules filter=lfs diff=lfs merge=lfs -text
-/lib/
-/bin/
-/conf/
-/jmods/
-/lib/modules
 
