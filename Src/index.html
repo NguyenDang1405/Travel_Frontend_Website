@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/media_index.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <input type="checkbox" id="show-search" />
+        <input type="checkbox" id="show-menu" />
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+          <img src="image/logo.png" alt class="logo" />
+          <ul class="links">
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="#about_us">Giới Thiệu</a></li>
+            <li>
+              <a href="#travel_categories_section" class="desktop-link">Sở thích</a>
+              <input type="checkbox" id="show-features" />
+              <label for="show-features">Sở Thích</label>
+              <ul>
+                <li><a href="van_hoa.html">Văn Hóa</a></li>
+                <li><a href="am_thuc.html">Ẩm thực</a></li>
+                <li><a href="thien_nhien.html">Thiên nhiên</a></li>
+                <li><a href="mua_sam.html">Mua sắm</a></li>
+                <li><a href="thu_gian.html">Thư giãn</a></li>
+                <li><a href="cuoc_song.html">Cuộc sống địa phương</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#popular_destination" class="desktop-link">Điểm đến</a>
+              <input type="checkbox" id="show-services" />
+              <label for="show-services">Điểm Đến</label>
+              <ul>
+                <li><a href="anh1.html">Chùa Cầu</a></li>
+                <li><a href="anh4.html">Cù Lao Chàm</a></li>
+                <li><a href="anh2.html">Biển An Bàng</a></li>
+                <li><a href="anh3.html">Rừng Dừa Bảy Mẫu</a></li>
+                <li><a href="anh5.html">Hội Quán Phúc Kiến</a></li>
+                <li><a href="anh6.html">Làng Gốm Thanh Hà</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact_us">Liên Hệ</a></li>
+            <li><a href="Tour.html">Tour Du Lịch</a></li>
+          </ul>
+        </div>
+        <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+        <form action="#" class="search-box">
+          <input
+            type="text"
+            placeholder="Type Something to Search..."
+            required />
+          <button type="submit" class="go-icon">
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </button>
+        </form>
+      </nav>
+    </div>
+
+    <div class="main_section">
+      <div class="bg_image-section">
+        <div class="hero_section">
+          <div class="text_section">
+            Khám Phá Hội An, <br><span>Theo Cách Riêng Của Bạn</span>
+          </div>
+          <div class="btn_group">
+            <button class="btn bg_btn">Khám Phá</button>
+            <button class="btn border_btn">Địa Điểm</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ---------------about_section------------ -->
+      <div class="about_section" id="about_us">
+        <div class="image_section">
+          <img
+            src="https://th.bing.com/th/id/R.83facb0ad6e8d3fedea2fba93afa4580?rik=HfnQxMJp%2fDuVIg&riu=http%3a%2f%2fwiki-travel.com.vn%2fUploads%2fpicture%2fcamnhi-201630021614-pho-co-hoi-an.png&ehk=pEeqA4w%2b4ns%2bGFZjLduYXhMhrhW%2f%2fz%2bEfHlz9gR8Q5E%3d&risl=&pid=ImgRaw&r=0"
+            alt
+            class="about_" />
+        </div>
+        <div class="content_section">
+          <div class="tag_section">
+            <h6 class="tag_title">Giới Thiệu</h6>
+            <div class="tag_indicator">
+              <div class="line"></div>
+              <div class="cicrle"></div>
+            </div>
+          </div>
+          <h6 class="about_title">Hội An-Di sản văn hóa</h6>
+          <p class="about_desc">
+            Hội An là một thành phố cổ ở Việt Nam, nằm ở tỉnh Quảng Nam. Thành
+            phố này có kiến trúc cổ đại độc đáo và phố cổ được duy trì nguyên
+            vẹn. Hội An từng là một cảng thương mại quan trọng và hiện nay là
+            một điểm đến du lịch nổi tiếng. Nơi đây có các căn nhà cổ, cửa hàng,
+            quán cà phê truyền thống và cây cầu gỗ cổ, tạo nên một không gian
+            đẹp và đặc biệt. Hội An đã được UNESCO công nhận là Di sản Văn hóa
+            Thế giới.
+          </p>
+          <button class="btn about_btn bg_btn">
+            Tìm hiểu thêm <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!------------------------------------------ Our Journey --------------------------------------------------->
+
+      <div class="travel_categories_section" id="travel_categories_section">
+        <div class="tag_section tag_center">
+          <h6 class="tag_title">Sở thích</h6>
+          <div class="tag_indicator">
+            <div class="line"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+        <h6 class="desc">Khám phá theo sở thích của bạn</h6>
+        <div class="categories_box_section">
+          <div
+            class="categories_box"
+            data-aos="fade-left"
+            data-aos-duration="2000">
+            <img
+              src="image/cheo_thuyen.jpg"
+              alt="categories box"
+              class="cat_img" />
+            <div class="cat_title"><a href="van_hoa.html">Văn Hóa</a></div>
+          </div>
+          <div
+            class="categories_box"
+            data-aos="fade-left"
+            data-aos-duration="2000">
+            <img
+              src="image/banh_xeo.jpg"
+              alt="categories box"
+              class="cat_img" />
+            <div class="cat_title"><a href="am_thuc.html">Ẩm thực</a></div>
+          </div>
+          <div
+            class="categories_box"
+            data-aos="fade-left"
+            data-aos-duration="2000">
+            <img
+              src="image/rung-dua-bay-mau.jpg"
+              alt="categories box"
+              class="cat_img" />
+            <div class="cat_title">
+              <a href="thien_nhien.html">Thiên nhiên</a>
+            </div>
+          </div>
+          <div
+            class="categories_box"
+            data-aos="fade-right"
+            data-aos-duration="2000">
+            <img src="image/cho.jpg" alt="categories box" class="cat_img" />
+            <div class="cat_title"><a href="mua_sam.html">Mua sắm</a></div>
+          </div>
+          <div
+            class="categories_box"
+            data-aos="fade-right"
+            data-aos-duration="2000">
+            <img src="image/spa.jpg" alt="categories box" class="cat_img" />
+            <div class="cat_title"><a href="thu_gian.html">Thư giãn</a></div>
+          </div>
+          <div
+            class="categories_box"
+            data-aos="fade-right"
+            data-aos-duration="2000">
+            <img src="image/cay.jpg" alt="categories box" class="cat_img" />
+            <div class="cat_title">
+              <a href="cuoc_song.html">Cuộc sống địa phương</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------join with us----------------------------------------------- -->
+      <div class="join_section">
+        <h6 class="join_title">
+          Tham Gia Các Chuyến Du Lịch Của Chúng Tôi <br />
+          Khám Phá Theo Cách Riêng Của Bạn
+        </h6>
+        <button class="btn bg_btn journey_btn">
+          <a href="Login.html">Tham Gia Ngay<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        </button>
+      </div>
+
+      <!---------------------------------------popular section----------------------------------- -->
+      <div class="popular_destination" id="popular_destination">
+        <div class="tag_section tag_center">
+          <h6 class="tag_title">Điểm đến nổi bật</h6>
+          <div class="tag_indicator">
+            <div class="line"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+        <h6 class="desc">Gợi ý cho bạn những điểm đến nổi tiếng</h6>
+        <div class="destination_section">
+          <div
+            class="destination_box"
+            data-aos="fade-right"
+            data-aos-duration="3000">
+            <div class="destination_img_box">
+              <a href="anh1.html"><img
+                  src="image/chuacau.jpg"
+                  alt="Destiantion Image"
+                  class="destination_img" /></a>
+              <div class="destination_category">Chùa Cầu</div>
+              <div class="destination_detail">
+                <h6 class="destination_title"></h6>
+                <h6 class="destination_duration">
+                  6 days | (6th May - 12th May 2023)
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <!-------------anh2-------->
+
+          <div
+            class="destination_box"
+            data-aos="fade-down"
+            data-aos-duration="3000">
+            <div class="destination_img_box">
+              <a href="anh4.html"><img
+                  src="image/clc.jpg"
+                  alt="Destiantion Image"
+                  class="destination_img" /></a>
+              <div class="destination_category">Cù Lao Chàm</div>
+              <div class="destination_detail">
+                <h6 class="destination_title"></h6>
+                <h6 class="destination_duration">
+                  6 days | (6th May - 12th May 2023)
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div
+            class="destination_box"
+            data-aos="fade-left"
+            data-aos-duration="2000">
+            <div class="destination_img_box">
+              <a href="anh2.html"><img
+                  src="image/bien-an-bangjpg.jpg"
+                  alt="Destiantion Image"
+                  class="destination_img" /></a>
+              <div class="destination_category">Bãi Biển An Bàng</div>
+              <div class="destination_detail">
+                <h6 class="destination_title"></h6>
+                <h6 class="destination_duration">
+                  6 days | (6th May - 12th May 2023)
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div
+            class="destination_box"
+            data-aos="fade-up"
+            data-aos-duration="3000">
+            <div class="destination_img_box">
+              <a href="anh3.html"><img
+                  src="image/rd.jpg"
+                  alt="Destiantion Image"
+                  class="destination_img" /></a>
+              <div class="destination_category">Rừng Dừa Bảy Mẫu</div>
+              <div class="destination_detail">
+                <h6 class="destination_title"></h6>
+                <h6 class="destination_duration">
+                  6 days | (6th May - 12th May 2023)
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div
+            class="destination_box"
+            data-aos="fade-left"
+            data-aos-duration="2000">
+            <div class="destination_img_box">
+              <a href="anh5.html"><img
+                  src="image/pk.jpg"
+                  alt="Destiantion Image"
+                  class="destination_img" /></a>
+              <div class="destination_category">Hội Quán Phúc Kiến</div>
+              <div class="destination_detail">
+                <h6 class="destination_title"></h6>
+                <h6 class="destination_duration">
+                  6 days | (6th May - 12th May 2023)
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="destination_box"
+            data-aos="fade-left"
+            data-aos-duration="2000">
+            <div class="destination_img_box">
+              <a href="anh6.html"><img
+                  src="image/lang_gom.jpg"
+                  alt="Destiantion Image"
+                  class="destination_img" /></a>
+              <div class="destination_category">Làng Gốm Thanh Hà</div>
+              <div class="destination_detail">
+                <h6 class="destination_title"></h6>
+                <h6 class="destination_duration">
+                  6 days | (6th May - 12th May 2023)
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="divider" />
+
+    <!-- ------------------------Contract us----------------- -->
+    <section class="contract" id="contact_us">
+      <div class="content">
+        <h2>Contact Us</h2>
+        <p>
+          Tôi sẽ hỗ trợ bạn trong quá trình này. Tôi cam kết cung cấp sự trợ
+          giúp toàn diện và chuyên nghiệp để bạn có một chuyến đi thật tuyệt
+          vời!
+        </p>
+      </div>
+      <div class="container1">
+        <div class="contractInfor">
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h2>Address</h2>
+              <p>P.Cẩm Châu, <br />TP.Hội An, T.Quảng Nam,<br />Việt Nam</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h2>Phone</h2>
+              <p>0905664702<br />0708007652</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h2>Email</h2>
+              <p>nguyendh.22it@vku.udn.vn<br />chauthi1704@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contractForm">
+          <form>
+            <h2>Send Messenger</h2>
+            <div class="inputbox">
+              <input type="text" required="required" />
+              <span>Full name</span>
+            </div>
+            <div class="inputbox">
+              <input type="text" required="required" />
+              <span>Email</span>
+            </div>
+            <div class="inputbox">
+              <textarea required="required"></textarea>
+              <span>Type your Messenger...</span>
+            </div>
+            <div class="inputbox">
+              <input type="submit" value="Send" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="socialicon">
+          <a href><i class="fa-brands fa-facebook"></i></a>
+          <a href><i class="fa-brands fa-instagram"></i></a>
+          <a href><i class="fa-brands fa-tiktok"></i></a>
+          <a href><i class="fa-brands fa-twitter"></i></a>
+          <a href><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            Copyright &copy;2023; Designed by
+            <span class="designer">Dang Hong Nguyen & Nguyen Thi Chau Thi</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
